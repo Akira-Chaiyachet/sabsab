@@ -1,0 +1,15 @@
+# ไม่ต้องเก็บโฟลเดอร์ mysql (volume ของ docker)
+mysql/
+# ไม่เก็บไฟล์ระบบ/ซ็อกเก็ต
+*.sock
+
+# Python virtualenv
+.venv/
+__pycache__/
+*.pyc
+
+# ไม่เก็บ log
+*.log
+
+# ไม่เก็บไฟล์ Docker/compose ที่ build มาเอง
+*.pid
